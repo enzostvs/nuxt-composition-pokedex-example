@@ -2,7 +2,7 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   target: 'static',
   head: {
-    title: 'comptadex',
+    title: 'Nuxt Pokedex | Recherche tes pokémons et leurs évolutions',
     htmlAttrs: {
       lang: 'en'
     },
