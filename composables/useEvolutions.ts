@@ -24,6 +24,8 @@ export default function useEvolutions(initialPokemon: Ref<any>) {
             mappedEvolutions.push(secondEvolve.sprites.front_default)
           }
           evolutions.value = mappedEvolutions
+        } else {
+          evolutions.value = []
         }
       } else {
         evolutions.value = []
