@@ -1,0 +1,20 @@
+export enum PokemonType{
+  grass = "green-500",
+  water = "blue-500",
+  ice = "blue-300",
+  psychic = "pink-700",
+  fire = "red-600",
+  ground = "yellow-700",
+  rock = "red-900",
+  poison = "indigo-700",
+  electric = "yellow-400",
+  normal = "gray-800",
+  dragon = "gray-800",
+  bug = "green-700",
+  fighting = "yellow-800",
+  ghost = "indigo-900",
+  fairy = "pink-500",
+  dark = "gray-800",
+  steel = "gray-500",
+  flying = "gray-400"
+}
