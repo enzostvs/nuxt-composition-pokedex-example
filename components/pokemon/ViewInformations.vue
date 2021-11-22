@@ -44,6 +44,13 @@
           </button>
         </div>
       </template>
+      <div v-else class="text-center">
+        <img src="~/assets/images/pikachu.png" alt="Pikachu" class="w-16 mb-5 mx-auto">
+        <p class="font-bold text-gray-800 text-2xl mb-1">C'est vide...</p>
+        <p class="text-gray-400 font-medium">
+          Sélectionne un pokémon pour voir ses informations&nbsp;!
+        </p>
+      </div>
     </div>
   </div>
 </template>

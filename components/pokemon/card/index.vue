@@ -43,9 +43,11 @@ export default defineComponent({
     const { pokemon } = toRefs(props)
     const store = useStore();
     const setColourCard = (types: any) => {
-      const { type } = types[0]
-      const typeFind = PokemonType[type.name as keyof typeof PokemonType] 
-      return `bg-${typeFind}`
+      if (types?.length > 0) {
+        const { type } = types[0]
+        const typeFind = PokemonType[type.name as keyof typeof PokemonType] 
+        return `bg-${typeFind}`
+      }
     }
 
     const select = (pokemon: any) => {
