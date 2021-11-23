@@ -1,4 +1,4 @@
-# comptadex
+# Nuxt Composition API Pokedex
 
 ## Build Setup
 
